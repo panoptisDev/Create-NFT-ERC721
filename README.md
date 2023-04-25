@@ -3,6 +3,14 @@
 ### Prerequisite programming in node.js would be beneficial.
 
 # 🚀 Getting started 
+
+const MNEMONIC = process.env.MNEMONIC
+const API_KEY = process.env.NODE_KEY
+
+
+---
+truffle migrate --reset --network pulse
+---
 Clone this repo. 
 Run `npm install` in terminal.
 * Place Matic RPC node key and Wallet Mnemonic in new .env file
